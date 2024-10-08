@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <form id="guestbookForm">
+        <h2>Formulir Buku Tamu</h2>
+
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label>
+        <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <label for="alamat">Alamat Tinggal:</label>
+        <textarea id="alamat" name="alamat" required></textarea><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="media_sosial">Aktif Pada Media Sosial:</label>
+        <div>
+            <input type="checkbox" id="Facebook" name="media_sosial" value="Facebook">
+            <label for="Facebook">Facebook</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Twitter" name="media_sosial" value="Twitter">
+            <label for="Twitter">Twitter</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Instagram" name="media_sosial" value="Instagram">
+            <label for="Instagram">Instagram</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Path" name="media_sosial" value="Path">
+            <label for="Path">Path</label>
+        </div><br><br>
+
+        <label for="sumber">Mengetahui Web Ini dari:</label>
+        <select id="sumber" name="sumber">
+            <option value="">-- Pilih --</option>
+            <option value="Media Sosial">Media Sosial</option>
+            <option value="Channel WhatsApp">Channel WhatsApp</option>
+            <option value="Keluarga">Keluarga</option>
+            <option value="Teman">Teman</option>
+            <option value="Lainnya">Lainnya</option>
+        </select><br><br>
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan"></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Batal">
+    </form>
+    <a href="https://youtu.be/11iZcYbq_is?si=qoo6k5hBEeIUcULc">Kunjungi Website ini</a>
+</body>
+</html>
